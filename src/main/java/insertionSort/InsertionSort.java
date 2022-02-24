@@ -28,7 +28,7 @@ public class InsertionSort {
      * @param arr
      * @param <T>
      */
-    public static <T extends Comparable<T>> void optimizingSort(T arr[]) {
+    public static <T extends Comparable<T>> void optimizingSort(T[] arr) {
         int arrayLength = arr.length;
         for (int i = 0; i < arrayLength; i++) {
             T t = arr[i];
@@ -45,7 +45,7 @@ public class InsertionSort {
      * @param arr
      * @param <T>
      */
-    public static <T extends Comparable<T>> void converseSort(T arr[]) {
+    public static <T extends Comparable<T>> void converseSort(T[] arr) {
         int arrayLength = arr.length;
         // TODO 待优化
         for (int i = arrayLength; i >= 0; i--) {
@@ -59,7 +59,7 @@ public class InsertionSort {
         }
     }
     
-    public static <T extends Comparable<T>> void sort(T arr[]) {
+    public static <T extends Comparable<T>> void sort(T[] arr) {
         int arrayLength = arr.length;
         for (int i = 0; i < arrayLength; i++) {
             for (int j = i; j > 0; j--) {
