@@ -1,4 +1,4 @@
-package linearSearch.domain;
+package search.domain;
 
 import java.util.Locale;
 import java.util.Objects;

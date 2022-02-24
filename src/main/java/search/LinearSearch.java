@@ -1,6 +1,6 @@
-package linearSearch;
+package search;
 
-import linearSearch.domain.Student;
+import search.domain.Student;
 
 import java.util.Arrays;
 import java.util.Random;
